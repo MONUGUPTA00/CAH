@@ -1,0 +1,130 @@
+body{
+    margin: 0px;
+}
+
+.cantainer1 {
+    display: flex;
+    justify-content: space-between;
+    color:white;
+    background-color: rgba(0,0,0,0.4);
+    padding: 10px;
+    font-family: "Roboto", sans-serif;
+    text-align  : center; 
+}
+
+.header{
+    background-image: url("../image/cah.jpg");
+    background-size: cover;
+    background-blend-mode: multiply;
+   background-color: rgba(70, 69, 69, 0.3); 
+
+}
+
+.text{
+    font-family: 'Anton', sans-serif;
+  font-size: 48px;
+  color: white;
+  text-transform: uppercase; 
+  letter-spacing: 1px;
+  padding-left: 150px;
+  padding-bottom: 2px;
+   
+}
+.text1{
+    font-family: 'Anton', sans-serif;
+    font-size: 20px;
+    color: white;
+ text-transform: uppercase; 
+ padding-left: 150px;
+ padding-top: px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+}
+.logo{
+    color: #ffffff;
+  font-family: "Bebas Neue", Sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+}
+#feature{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    text-align: center;
+    column-gap: 10px;
+}
+.container2{
+    display: flex;
+    margin-top:120px;
+    column-gap:10px;
+    margin-left: 80px;
+    margin-right: 120px;
+
+}
+.divider{
+    border: 1px solid lightgray;
+}
+
+.textsect img{
+    height: 80px;
+    padding-left: 150px;
+    padding-right: 150px;
+
+}
+hr{
+    height: 1.5PX;
+    width: 500px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    margin-top: 20px;
+    margin-left: -9px;
+    padding-left: 150px;
+}
+.social-icon {
+    display: flex;
+    justify-content: left;
+    gap: 15px;
+    margin: 20px 20px;
+    padding: 40px 60px;
+    padding-left: 120px;
+    padding-bottom: 5%;
+    padding-top : 2px;
+}
+
+.social-icon img {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    transition: transform 0.2s ease-in-out;
+    
+}
+
+.social-icon img:hover {
+    transform: scale(1.1);
+}
+.web{
+    
+margin-bottom: 15px;
+  color: #140748;
+  font-family: "Bebas Neue", Sans-serif;
+  font-size: 20px;
+  font-weight: 400px;
+  text-transform: none;
+  font-style: normal;
+  text-decoration: none;
+  line-height: 1.1em;
+  text-transform: uppercase; 
+  padding-top: 20px;
+}
+.webshot{
+    color: #666666;
+  font-family: "Roboto", Sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: none;
+  font-style: normal;
+  text-decoration: none;
+  line-height: 1.6em;
+}
